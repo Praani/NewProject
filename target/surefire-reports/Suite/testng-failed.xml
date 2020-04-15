@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.pranicompany.test.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Cogmento(failed)">
+    <parameter name="URL" value="https://ui.cogmento.com/"/>
+    <classes>
+      <class name="com.pranicompany.test.open_browser">
+        <methods>
+          <include name="conf" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.pranicompany.test.open_browser -->
+    </classes>
+  </test> <!-- Cogmento(failed) -->
+</suite> <!-- Failed suite [Suite] -->

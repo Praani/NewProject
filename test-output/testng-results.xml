@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5659" started-at="2020-04-15T11:23:14 IST" finished-at="2020-04-15T11:23:20 IST">
+    <groups>
+    </groups>
+    <test name="amazon" duration-ms="5659" started-at="2020-04-15T11:23:14 IST" finished-at="2020-04-15T11:23:20 IST">
+      <class name="com.pranicompany.test.open_browser">
+        <test-method status="PASS" signature="setProperty()[pri:0, instance:com.pranicompany.test.open_browser@3b088d51]" name="setProperty" is-config="true" duration-ms="17" started-at="2020-04-15T11:23:15 IST" finished-at="2020-04-15T11:23:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method status="PASS" signature="OpenURL(java.lang.String)[pri:0, instance:com.pranicompany.test.open_browser@3b088d51]" name="OpenURL" is-config="true" duration-ms="3818" started-at="2020-04-15T11:23:15 IST" finished-at="2020-04-15T11:23:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenURL -->
+        <test-method status="PASS" signature="Best_Sellers()[pri:0, instance:com.pranicompany.test.open_browser@3b088d51]" name="Best_Sellers" duration-ms="1543" started-at="2020-04-15T11:23:18 IST" finished-at="2020-04-15T11:23:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Best_Sellers -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.pranicompany.test.open_browser@3b088d51]" name="close" is-config="true" duration-ms="196" started-at="2020-04-15T11:23:20 IST" finished-at="2020-04-15T11:23:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.pranicompany.test.open_browser -->
+    </test> <!-- amazon -->
+  </suite> <!-- Suite -->
+</testng-results>
